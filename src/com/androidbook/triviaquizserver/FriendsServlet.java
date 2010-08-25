@@ -82,7 +82,7 @@ public class FriendsServlet extends HttpServlet {
                 List<PlayerPersistentData> friends = null;
                 
                 // perform a bit of checking, though we can't readily remove the warning
-                if (friends instanceof List) {
+                if (result instanceof List) {
                     friends = (List<PlayerPersistentData>) result;
                 }
                 
