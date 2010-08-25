@@ -1,11 +1,4 @@
-<!-- Indices written at Fri, 16 Apr 2010 20:26:51 UTC -->
+<!-- Indices written at Wed, 25 Aug 2010 20:33:06 UTC -->
 
-<datastore-indexes>
+<datastore-indexes/>
 
-    <!-- Used 1 time in query history -->
-    <datastore-index kind="TriviaQuizQuestions" ancestor="false" source="auto">
-        <property name="approved" direction="asc"/>
-        <property name="number" direction="asc"/>
-    </datastore-index>
-
-</datastore-indexes>
